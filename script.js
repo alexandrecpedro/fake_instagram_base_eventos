@@ -13,7 +13,7 @@ btnMore.addEventListener('click', () => {
 const toggleHeart = (elemento) => {
     let heart = elemento;
     console.log(heart.src);
-    // .includes verifica se existe esse texto dentro da string
+    // .includes verifica se existe esse "texto" dentro da string
     if (heart.src.includes('/img/icons/heart.svg')) {
         heart.src = 'img/red-heart.png';
     } else {
