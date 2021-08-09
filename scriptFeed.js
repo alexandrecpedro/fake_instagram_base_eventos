@@ -30,5 +30,17 @@ window.addEventListener('load', () => {
         busca.style.boxShadow = 'none'
     })
     // Exercício 4
-    document.getElementById("more").style.cursor = "pointer";   
+    document.getElementById("more").style.cursor = "pointer";
+    // const toggleHeart = (elemento) => {
+    //     let heart = elemento;
+    //     n = 0;
+    //     // .includes verifica se existe esse "texto" dentro da string
+    //     if (heart.src.includes('/img/icons/heart.svg')) {
+    //         heart.src = 'img/red-heart.png';
+    //         n = n + 1;
+    //     } else {
+    //         heart.src = '/img/icons/heart.svg'
+    //         n = n - 1;
+    //     }
+    // };   
 })
