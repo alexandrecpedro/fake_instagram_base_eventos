@@ -1,5 +1,10 @@
 window.addEventListener('load', () => {
     // ATIVIDADE 2 - Validando o preenchimento obrigatório
+
+    // Exercício 2
+    let formUser = document.querySelector('.form-auth input[name="username"]');
+    formUser.insertAdjacentHTML('beforebegin', '<input type="date" name="dataNascimento">')
+
     // Exercícios 1
     let form = document.querySelector('.form-auth');
     let inputs = document.querySelectorAll('.form-auth input');
@@ -14,10 +19,6 @@ window.addEventListener('load', () => {
                 error++;
             }
         }
-        
-        // Exercício 2
-        let formUser = document.querySelector('.form-auth input[name="username"]');
-        formUser.insertAdjacentHTML('beforebegin', '<input type="date" name="dataNascimento">')
         
         // Exercício 3
         if (error > 0) {
